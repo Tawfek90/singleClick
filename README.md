@@ -21,8 +21,15 @@ Ensure you have the following installed:
 
 ### Clone the Repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/react-fake-store-app.git
-cd react-fake-store-app
+git clone https://github.com/Tawfek90/singleClick.git
+cd singleclick
+### Install Dependencies
+npm i
+### build the project
+npm run build
+### start the project
+npm run start
+
 
 ## Deploy on Vercel
 
