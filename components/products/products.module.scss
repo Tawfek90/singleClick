@@ -1,0 +1,19 @@
+.productsWrapper {
+  @apply w-[80%] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4;
+
+  .product {
+    @apply text-[12px] text-center my-1;
+    img {
+      @apply w-[100px] h-[100px] mx-auto;
+    }
+    .price {
+      @apply font-bold text-[14px];
+    }
+  }
+}
+.content {
+  @apply text-[18px] capitalize text-center;
+  .clear {
+    @apply bg-black text-white capitalize cursor-pointer text-[12px] py-[.5rem] px-4;
+  }
+}

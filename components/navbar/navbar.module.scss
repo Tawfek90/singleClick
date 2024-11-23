@@ -1,0 +1,9 @@
+.navWrapper {
+  @apply my-4;
+  .list {
+    @apply w-[80%]  mx-auto flex  flex-wrap justify-between items-center capitalize;
+    .item {
+      @apply cursor-pointer mx-[2px];
+    }
+  }
+}
